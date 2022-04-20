@@ -1,0 +1,90 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5;
+    }
+
+    30% {
+        background-color: #66bf39;
+    }
+
+    60% {
+        background-color: #eb670f;
+    }
+
+    90% {
+        background-color: #f35;
+    }
+
+    100% {
+        background-color: #864cbf;
+    }
+}
+
+html,
+body {
+    height: 90%;
+    padding: 0;
+    margin: 0;
+
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+button {
+    width: 48.3%;
+    height: 46.9%;
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+
+    margin: 10px;
+
+    border: 2px solid black;
+}
+.buttons {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+#answer1 {
+    background-color: #4caf50;
+}
+#answer2 {
+    background-color: #f94a1e;
+}
+#answer3 {
+    background-color: #3399ff;
+}
+#answer4 {
+    background-color: #ff9933;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#stats {
+    color: white;
+    font-size: 1.7em;
+}
+
+#nameText {
+    font-family: "Raleway", sans-serif;
+    padding: 0px 10px;
+}
+#scoreText {
+    font-family: "Raleway", sans-serif;
+    padding: 0px 10px;
+}
+#message {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
